@@ -1,5 +1,3 @@
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=VirtualPhotonics_VTS&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=VirtualPhotonics_VTS)
-
 ## Virtual Tissue Simulator (VTS)
 The primary vehicle for the accomplishment of these goals is the ongoing development of the Virtual Tissue Simulator (VTS). The VTS is being designed as a modular and scalable platform to provide an integrated suite of computational tools to define, solve, visualize, and analyze relevant forward and inverse radiative transport problems in Biomedical Optics. We intend to develop specific Application ToolKits (ATKs) that will provide a user-interface customized for the simulation of issues specific to an application domain. Examples include Small Animal Imaging and Fiber Optic Probe development.
 
