@@ -1,0 +1,103 @@
+# Ignores for Visual Studio #
+#############################
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.nlb
+*.clw
+*.pdb
+*.pidb
+*.tlb
+*.tlh
+*.bak
+*.Cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+*.sig
+*.asv
+*.userprefs
+*.xap
+*.zip
+
+# Folder ignores #
+##################
+[Bb]in/
+[Cc]lient[Bb]in
+[Dd]ebug*/
+[Bb]uild/
+obj/
+vts_libraries/
+[Pp]ackages/
+
+# MATLAB Specific ignores #
+###########################
+[Rr]esults*/
+matlab/vts_wrapper/*.txt
+matlab/monte_carlo_inverse/jsonlab/
+simulation_result_loading/
+# Add these back to repository
+!jsonlab/
+!*.m
+
+# Tools #
+#########
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Source Control #
+##################
+.hg/
+.hgignore
+.hgtags
+.svn
+.svn/
+CVS
+
+# NuGet Package files #
+#######################
+*.nuspec
+*.nupkg
+
+# Misc ignores #
+################
+.vs/
+.sonarqube/
+publish/
+matlab/post_processing/one_layer_all_detectors/
+
+# Nested MCCL Repo ignores #
+############################
+src/.vs/
+src/Vts.MonteCarlo.sln
+src/Vts.MonteCarlo.PostProcessor/Vts.MonteCarlo.PostProcessor.Application.csproj
+src/Vts.MonteCarlo.PostProcessor.Test/Vts.MonteCarlo.PostProcessor.Application.Test.csproj
+src/Vts.MonteCarlo.CommandLineApplication/Vts.MonteCarlo.Application.csproj
+src/Vts.MonteCarlo.CommandLineApplication.Test/Vts.MonteCarlo.Application.Test.csproj
+src/.gitignore
+src/license.md
+src/README.md
+src/Vts.MonteCarlo.CommandLineApplication/Properties/launchSettings.json
+src/Vts/Vts.xml
+src/.github/
